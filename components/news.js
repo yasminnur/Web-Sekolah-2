@@ -10,9 +10,8 @@ function news() {
 
     return (
         <>
-        
         {jsonData.map((item, index) => (
-            <div className="h-[513px] w-[400px] items-center justify-center p-[24px] border-[2px] border-[#4EAAE4] rounded-[24px]">
+            <div className=" w-[350px] items-center justify-center px-[24px] py-[24px] border-[2px] border-[#4EAAE4] rounded-[24px]">
             <a key={index} href="#" class="group">
                 <div>
             <img src={item.image} alt="" />
@@ -27,7 +26,6 @@ function news() {
             </a>
             </div>
         ))}
-      
         </>
   );
 }

@@ -1,50 +1,50 @@
 [
     {
-        "image":"./assets/galeri/galeri.png",
+        "image":"./assets/galeri/galeri1.png",
         "title": "Ruang Kelas"
     },
     {
-        "image":"./assets/galeri/galeri.png",
-        "title": ""
+        "image":"./assets/galeri/galeri1.png",
+        "title": "a"
     },
     {
-        "image":"./assets/galeri/galeri.png",
-        "title": ""
+        "image":"./assets/galeri/galeri1.png",
+        "title": "Ruang kelas"
     },
     {
-        "image":"./assets/galeri/galeri.png",
-        "title": ""
+        "image":"./assets/galeri/galeri1.png",
+        "title": "Ruang kelas"
     },
     {
         "image":"./assets/galeri/galeri5.png",
-        "title": ""
+        "title": "a"
     },
     {
         "image":"./assets/galeri/galeri6.png",
-        "title": ""
+        "title": "a"
     },
     {
         "image":"./assets/galeri/galeri7.png",
-        "title": ""
+        "title": "a"
     },
     {
         "image":"./assets/galeri/galeri8.png",
-        "title": ""
+        "title": "a"
     },
     {
         "image":"./assets/galeri/galeri9.png",
-        "title": ""
+        "title": "a"
     },
     {
         "image":"./assets/galeri/galeri10.png",
-        "title": ""
+        "title": "a"
     },
     {
         "image":"./assets/galeri/galeri11.png",
-        "title": ""
+        "title": "a"
     },
     {
         "image":"./assets/galeri/galeri12.png",
-        "title": ""
+        "title": "a"
     }
 ]

@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .custom-img {
-background-image: url('/assets/home/Vector.png');
-width: 100%;
+    background-image: url('/assets/home/Vector.png');
+    width: 100%;
 }

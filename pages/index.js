@@ -1,14 +1,47 @@
 import React from "react";
 import Keunggulan from "@/components/keunggulan";
-import Galeri from "@/components/galeri";
+import GaleriPrev from "@/components/galeriPreview";
 import Artikel from "@/components/artikel";
-import Navbar from '@/components/navbar'
 
 function index() {
   return (
     <>
       {/* SECTION 1 */}
       <div className="bg-white">
+        <main
+          className=" bg-background flex "
+          style={{
+            backgroundImage: "url(assets/home/vector.png)",
+            backgroundSize: "cover",
+            overflowY: "auto",
+            height: "133vh",
+          }}
+        >
+          <img class="hidden lg:absolute lg:right-0 lg:top-[1100px]" src="home/side1.png" />
+          <img class="hidden lg:absolute lg:left-0 lg:top-[1680px]" src="home/side2.png" />
+          <img class="hidden lg:absolute lg:right-0 lg:top-[3100px]" src="home/side3.png" />
+
+          {/* Headline */}
+          <div className="w-72 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
+            <div>
+              <div>
+                <h3 className="font-poppins text-white font-bold text-2xl lg:text-5xl lg:leading-[60px] tracking-tighter">
+                  Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
+                </h3>
+                <p className="text-lg lg:text-xl text-white font-normal mt-5 lg:pr-5">
+                  jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
+                  untuk kehidupan yang lebih bermanfaat
+                </p>
+              </div>
+              <div class=" mt-6 lg:mt-9 h-9 lg:h-12 px-6 py-3 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
+                <button class="text-white text-base font-normal font-Poppins">
+                  Daftar Sekarang
+                </button>
+              </div>
+            </div>
+          </div>
+        </main>
+      {/* <div className="bg-white">
         <main
           className=" bg-background flex "
           style={{
@@ -42,7 +75,7 @@ function index() {
             </div>
           </div>
         </main>
-      </div>
+      </div> */}
 
       {/* SECTION 2 */}
       <section className="my-[120px]">
@@ -105,7 +138,7 @@ function index() {
           </button>
         </div>
         <div className="flex items-center justify-between mb-[40px]">
-          <Galeri />
+          <GaleriPrev />
         </div>
       </section>
 
@@ -149,7 +182,8 @@ function index() {
           </button>
         </div>
         <Artikel />
-      </section>
+        </section>
+        </div>
     </>
   );
 }

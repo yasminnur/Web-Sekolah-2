@@ -41,12 +41,13 @@ function kontak() {
           </div>
           
           {/* SECTION 2 */}
+          <section className=' px-[120px] mt-16'>
           <div className="w-[1280px] h-[775px] flex-col justify-center items-center gap-16 inline-flex mb-[151px]">
     <div className="flex-col justify-center items-center flex">
         <div className="text-blue-950 text-2xl font-normal font-['Poppins']">Dapatkan informasi lebih lengkap</div>
         <div className="text-black text-[56px] font-bold font-['Poppins']">Kontak Kami</div>
     </div>
-    <div className="self-stretch justify-start items-start gap-[120px] inline-flex">
+    <div className="self-stretch justify-start items-start gap-[120px] inline-flex ">
         <div className="flex-col justify-start items-start gap-16 inline-flex">
             <div className="justify-start items-center gap-6 inline-flex">
                 <div className="p-5 rounded-[80px] border-2 border-blue-400 justify-center items-start gap-2.5 flex">
@@ -339,7 +340,8 @@ function kontak() {
             </div>
         </div>
     </div>
-</div>
+              </div>
+              </section>
       </>
   )
 }

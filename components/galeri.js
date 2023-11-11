@@ -11,25 +11,40 @@ function galeri() {
   return (
     <>
       <div className="flex flex-wrap gap-14">
-        {jsonData.map((item, index) => (
-          <a key={index} href="#" className="group">
-            <div className="relative w-[323px] h-[400px] overflow-hidden rounded-xl my-10">
-  <img
-    src={item.image}
-    alt={item.title}
-    className="w-full h-full object-cover object-center"
-  />
-  <div className="absolute inset-0 bg-gradient-to-t from-blue-500 to-transparent" style={{ height: '10%' }}></div>
-  <div className="absolute bottom-0 left-0 p-3 text-white">
-    <h2 className="card-title">{item.title}</h2>
-    {/* Konten lainnya */}
-  </div>
+  {jsonData.map((item, index) => (
+    <a key={index} href="#" className="group">
+      <div className="w-[399.33px] h-[356px] bg-red-200 rounded-3xl">
+      <div
+        className="relative grid md:grid-cols-2 mt-10 my-10 w-full h-full rounded-3xl"
+        style={{
+          backgroundImage: `url(${item.image})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          // width: "323px",
+          // height: "400px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "flex-end",
+        }}
+      >
+        <div className="rounded-3xl"
+          style={{
+            backgroundImage:
+              "linear-gradient(to top, rgba(57, 113, 208, 0.60) 0%, rgba(0, 0, 0, 0) 100%)",
+            padding: "10px",
+            borderRadius: "24px",
+          }}
+        >
+          <div className="text-white ">
+            <h2 className="card-title flex items-center justify-center">{item.title}</h2>
+          </div>
+        </div>
+        </div>
+        </div>
+    </a>
+  ))}
 </div>
 
-              
-          </a>
-        ))}
-      </div>
       
     </>
   );

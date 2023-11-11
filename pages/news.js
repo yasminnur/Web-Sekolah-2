@@ -102,8 +102,10 @@ function news() {
         </div>
         <div className="self-stretch text-blue-500 text-xl font-semibold font-['Poppins']">Baca selengkapnya</div>
     </div>
-              </div>
-                  <News />
+          </div>
+          <div className="gap-[30px] flex flex-wrap">
+            <News />
+            </div>
 
                   <div className="w-[1282px] h-8 justify-between items-center inline-flex">
     <div className="text-neutral-700 text-[21px] font-normal font-['Poppins']">Menampilkan 10 Dari 21 Data</div>
