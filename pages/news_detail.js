@@ -72,8 +72,8 @@ function news_detail() {
             kerjasama yang baik antar orang tua padahal ada yang tidak kenal
             awalnya begitu juga anak-anak kelas 7 yang akhirnya bisa bertemu
             dengan teman kelasnya secara langsung setelah di semester ganjil ini
-            hanya bertemu di pembelajaran online. Semuanya hadir demi
-            mewujudkan pembelajaran tatap muka meskipun terbatas.
+            hanya bertemu di pembelajaran online. Semuanya hadir demi mewujudkan
+            pembelajaran tatap muka meskipun terbatas.
           </p>
         </div>
       </div>

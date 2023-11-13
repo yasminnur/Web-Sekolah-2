@@ -1,39 +1,47 @@
-import React from 'react'
-import Galeri from '@/components/galeri'
-
+import React from "react";
+import Galeri from "@/components/galeri";
 
 function galeri() {
-    return (
-        <>
-        {/* SECTION 1 */}
-        <section
-          className=" bg-background flex "
-          style={{
-            backgroundImage: "url(assets/home/vector.png)",
-            backgroundSize: "cover",
-            overflowY: "auto",
-            height: "133vh",
-          }}
-        >
-          
-        <div className="w-[601px] h-[276px] pt-[224px] px-[80px] flex">
-        <div className="h-[156px] left-[80px] top-[219px] absolute flex-col justify-start items-start gap-6 inline-flex">
-        <div className="self-stretch h-[156px] flex-col justify-start items-start flex">
-            <div className="self-stretch text-white text-[64px] font-semibold">Galeri</div>
-            <div className="self-stretch text-white text-xl font-normal">Beberapa hasil dokumentasi area sekolah dan kegiatan siswa di sekolah</div>
-        </div>
-    </div> 
+  return (
+    <>
+      {/* SECTION 1 */}
+      <section
+        className=" bg-background flex"
+        style={{
+          backgroundImage: "url(assets/home/vector.png)",
+          backgroundSize: "cover",
+          overflowY: "auto",
+          height: "133vh",
+          maxWidth: "full",
+        }}
+      >
+        <div className="pt-[224px] px-[80px] flex w-screen">
+          <div className="">
+            <div className="w-[601px] h-[276px] flex-col justify-start items-start gap-6 inline-flex">
+              <div className="h-[204px] flex-col lg:justify-start lg:items-start  flex">
+                <h1 className=" text-white text-5xl font-semibold">Galeri</h1>
+                <p className="text-white text-xl font-normal mt-4">
+                  Beberapa hasil dokumentasi area sekolah dan kegiatan siswa di
+                  sekolah
+                </p>
+              </div>
+            </div>
+          </div>
 
-          <div className="absolute right-[152px]">
-          <img src="./assets/galeri/amico.png" className="w-[496px] h-[472px]" alt="" />
+          <div className="lg:w-1/2 -mt-20 hidden lg:flex">
+            <img
+              src="./assets/galeri/amico.png"
+              className="min-w-[400px] max-h-[600px] max-w-[600px] mx-auto"
+              alt=""
+            />
           </div>
         </div>
-        </section>
-            
-            {/* SECTION 5 */}
+      </section>
+
+      {/* SECTION 5 */}
       <section className="px-[79px] py-[40px] mt-[120px] mb-[120px]">
-        <div className="flex items-center mb-[40px] justify-center">
-          <ul className="flex text-[#404040] font-normal gap-[40px] text-[24px]">
+        <div className="md:flex items-center mb-[40px] justify-center">
+          <ul className="md:flex text-[#404040] font-normal gap-[40px] text-[24px]">
             <li>
               <div className="mx-auto hover:border-b-2 hover:border-[#3190DC] px-7 active:border-b-2 active:border-[#3190DC]">
                 <a
@@ -65,12 +73,12 @@ function galeri() {
               </div>
             </li>
           </ul>
-                </div>
+        </div>
 
-                <Galeri />
-                </section>
-        </>
-  )
+        <Galeri />
+      </section>
+    </>
+  );
 }
 
-export default galeri
+export default galeri;
