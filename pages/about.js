@@ -1,75 +1,81 @@
 import React from 'react'
 import Keunggulan from '@/components/keunggulan'
 import Guru from '@/components/guru'
-import Navbar from '@/components/navbar'
 
 function about() {
   return (
       <>
-          {/* <div className='mx-auto justify-center items-center'> */}
       {/* SECTION 1 */}
-      <div className="bg-white">
-        <main
-          className=" bg-background flex "
-          style={{
-            backgroundImage: "url(/assets/home/Vector.png)",
-            backgroundSize: "cover",
-            overflowY: "auto", // Mengizinkan konten digulir jika melebihi tinggi layar
-            height: "122vh",
-          }}
-        >
-          <img
-            class="absolute right-20 lg:top-[300px]"
-            src="./assets/about/amico.png"
-          />
-
-          <div className="w-7/12 flex flex-row items-center mb-20 px-[90px]">
+      <section className=" bg-background flex"
+        style={{
+          backgroundImage: "url(assets/home/vector.png)",
+          backgroundSize: "cover",
+          overflowY: "auto",
+          height: "133vh",
+          maxWidth: "full"
+        }}>
+        <div className="pt-[224px] px-[80px] flex w-screen">
+          <div className="">
             <div className="w-[601px] h-[276px] flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch h-[204px] flex-col justify-start items-start flex">
-              <div className="w-[601px] text-white text-[64px] font-semibold font-['Poppins']">Tentang Kami</div>
-              <div className="w-[601px] text-white text-xl font-normal font-['Poppins']">Profil sekolah kami dan beberapa info penting tentang sekolah ini agar anda lebih yakin dan mengerti.</div>
-              </div>
-              <div className="px-6 py-3 bg-white rounded-md justify-center items-center gap-2.5 inline-flex">
-                <div className="text-emerald-300 text-base font-semibold font-['Poppins']">
-                  Daftar Sekarang
+                <div className="self-stretch text-white text-5xl font-semibold">
+                Tentang Kami
+                </div>
+                <div className="self-stretch lg:text-sm text-white text-xl font-normal mt-4">
+                  Profil sekolah kami dan beberapa info penting tentang
+                  sekolah ini agar anda lebih yakin dan mengerti.
                 </div>
               </div>
             </div>
           </div>
-        </main>
+          <div className="absolute right-[152px]">
+          <img src="./assets/about/amico.png" className="w-[496px] h-[472px]" alt="" />
           </div>
+          </div>
+      </section>
           
           {/* SECTION 2 */}
-          <div className="w-[1440px] h-[574px] px-20 pt-[38.46px] pb-[105.54px] justify-center items-center inline-flex">
-    <div className="grow shrink basis-0 self-stretch flex-col justify-start items-start gap-2 inline-flex">
-        <div className="text-blue-950 text-2xl font-normal font-['Poppins']">Profil Singkat</div>
-        <div className="text-black text-[56px] font-bold font-['Poppins']">Sekolah Informal </div>
-        <div className="self-stretch text-neutral-700 text-2xl font-normal font-['Poppins'] leading-[42px]">Sekolah Kami merupakan sekolah informal yang dikelola untuk membantu anak mengembangkan bakat dan kemampuannya. Dengan memberikan kurikulum terbaik agar anak bisa memilih minat nya dan fokus mengembangkan minat tersebut. Sekolah ini didirikan sejak tahun 1989 dan terus berkembang hingga saat ini. berlokasikan di jl. SoekarnoHatta Blok J No. 245, Lowokwaru, Blimbing, Kota Malang. Sejak berdirinya sekolah ini, sudah lebih dari 250.000 siswa lulus dari sekolah kami. Dengan menjunjung tinggi kejujuran, kedisiplinan dan semangat belajar yang tinggi kami berharap bisa terus meghasilkan siswa-siswa lulusan terbaik dari sekolah ini.</div>
-    </div>
+          <div className="px-20 pt-[39px] pb-[105px]">
+    {/* <div className="flex bg-blue-200"> */}
+        <h3 className="flex text-blue-950 text-2xl font-normal">Profil Singkat</h3>
+        <h1 className="flex text-black text-[56px] font-bold">Sekolah Informal </h1>
+          <p className="flex text-neutral-700 text-2xl font-normal leading-[42px] text-justify">
+            Sekolah Kami merupakan sekolah informal yang dikelola untuk membantu anak
+            mengembangkan bakat dan kemampuannya. Dengan memberikan kurikulum terbaik
+            agar anak bisa memilih minat nya dan fokus mengembangkan minat tersebut.
+            Sekolah ini didirikan sejak tahun 1989 dan terus berkembang hingga saat ini.
+            berlokasikan di jl. SoekarnoHatta Blok J No. 245, Lowokwaru, Blimbing, Kota Malang.
+            Sejak berdirinya sekolah ini, sudah lebih dari 250.000 siswa lulus dari sekolah kami.
+            Dengan menjunjung tinggi kejujuran, kedisiplinan dan semangat belajar yang tinggi kami
+            berharap bisa terus meghasilkan siswa-siswa lulusan terbaik dari sekolah ini.</p>
+    {/* </div> */}
           </div>
           
-          {/* SECTION 3 */}
-      <div
-        className=" bg-background flex "
+         {/* SECTION 3 */}
+         <section className=''>
+        <div className="relative bg-background flex"
         style={{
-          backgroundImage: "url(/assets/home/Vector2.png)",
+          backgroundImage: "url(/assets/about/vector2.png)",
           backgroundSize: "cover",
-          overflowY: "auto", // Mengizinkan konten digulir jika melebihi tinggi layar
+          overflowY: "auto",
           height: "122vh",
-        }}
-      >
-        <Keunggulan />
+        }}>
+        
+        <div className="px-[80px] mt-[210px]">
+            <h1 className='flex items-center justify-center text-white text-[64px] font-bold mb-[20px]'>Keunggulan Kami</h1>
+              <Keunggulan />
           </div>
+          </div>
+        </section>
           
           {/* SECTION 4 */}
-          <div className='px-[81px] pt-[50.86px] pb-[62.14px]'>
+          <div className='px-[81px] pt-[51px] pb-[62px] mt-[120px]'>
           <div className="w-[1278px] h-36 flex-col justify-start items-start inline-flex mb-[40px]">
-                  <div className="text-black text-[56px] font-bold font-['Poppins']">Guru {'&'} Staff Sekolah</div>
+                  <div className="text-black text-[56px] font-bold">Guru {'&'} Staff Sekolah</div>
     <div className="self-stretch justify-between items-center inline-flex">
-        <div className="text-blue-950 text-2xl font-normal font-['Poppins']">Perkenalan Anggota Sekolah</div>
+        <div className="text-blue-950 text-2xl font-normal">Perkenalan Anggota Sekolah</div>
         <div className="px-6 py-3 bg-blue-500 rounded-xl justify-center items-center gap-2.5 flex">
-            <div className="text-white text-2xl font-normal font-['Poppins']">Lihat Semua</div>
-            <div className="text-white text-2xl font-black font-['Font Awesome 5 Free']">chevron-right</div>
+              <div className="text-white text-2xl font-normal">Lihat Semua {">"}</div>
         </div>
     </div>
               </div>
@@ -77,7 +83,7 @@ function about() {
           </div>
           
           {/* SECTION 5 */}
-          <section className='px-[120px] pb-[24px]'>
+          <section className='px-[120px] pb-[24px] mt-[120px] mb-[120px]'>
           <div className="w-[1280px] h-[814px] px-10 pb-10 flex-col justify-start items-center gap-6 inline-flex mx-auto">
     <div className="self-stretch h-[120px] flex-col justify-center items-center flex">
         <div className="text-black text-[56px] font-bold font-['Poppins']">Video Profil</div>

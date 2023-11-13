@@ -5,32 +5,33 @@ import Galeri from '@/components/galeri'
 function galeri() {
     return (
         <>
-            {/* SECTION 1 */}
-      <div className="bg-white">
-        <main
+        {/* SECTION 1 */}
+        <section
           className=" bg-background flex "
           style={{
-            backgroundImage: "url(/assets/home/Vector.png)",
+            backgroundImage: "url(assets/home/vector.png)",
             backgroundSize: "cover",
-            overflowY: "auto", // Mengizinkan konten digulir jika melebihi tinggi layar
-            height: "122vh",
+            overflowY: "auto",
+            height: "133vh",
           }}
         >
-          <img
-            class="absolute right-20 lg:top-[300px] w-20 h-20"
-            src="./assets/galeri/amico.png"
-                    />
-                </main>
-                <div className="h-[156px] left-[80px] top-[219px] absolute flex-col justify-start items-start gap-6 inline-flex">
+          
+        <div className="w-[601px] h-[276px] pt-[224px] px-[80px] flex">
+        <div className="h-[156px] left-[80px] top-[219px] absolute flex-col justify-start items-start gap-6 inline-flex">
         <div className="self-stretch h-[156px] flex-col justify-start items-start flex">
-            <div className="self-stretch text-white text-[64px] font-semibold font-['Poppins']">Galeri</div>
-            <div className="self-stretch text-white text-xl font-normal font-['Poppins']">Beberapa hasil dokumentasi area sekolah dan kegiatan siswa di sekolah</div>
+            <div className="self-stretch text-white text-[64px] font-semibold">Galeri</div>
+            <div className="self-stretch text-white text-xl font-normal">Beberapa hasil dokumentasi area sekolah dan kegiatan siswa di sekolah</div>
         </div>
-    </div>
-            </div>
+    </div> 
+
+          <div className="absolute right-[152px]">
+          <img src="./assets/galeri/amico.png" className="w-[496px] h-[472px]" alt="" />
+          </div>
+        </div>
+        </section>
             
             {/* SECTION 5 */}
-      <section className="px-[79px] py-[40px] mt-[120px]">
+      <section className="px-[79px] py-[40px] mt-[120px] mb-[120px]">
         <div className="flex items-center mb-[40px] justify-center">
           <ul className="flex text-[#404040] font-normal gap-[40px] text-[24px]">
             <li>

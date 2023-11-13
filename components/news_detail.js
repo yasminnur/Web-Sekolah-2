@@ -5,7 +5,7 @@ function news_detail() {
     const [jsonData, setJsonData] = useState([]);
 
   useEffect(() => {
-    setJsonData(data); // Menggunakan data dari artikelbaru.json
+    setJsonData(data);
   }, []);
   return (
       <>

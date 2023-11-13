@@ -7,80 +7,55 @@ function index() {
   return (
     <>
       {/* SECTION 1 */}
-      <div className="bg-white">
-        <main
-          className=" bg-background flex "
-          style={{
-            backgroundImage: "url(assets/home/vector.png)",
-            backgroundSize: "cover",
-            overflowY: "auto",
-            height: "133vh",
-          }}
-        >
-          <img class="hidden lg:absolute lg:right-0 lg:top-[1100px]" src="home/side1.png" />
-          <img class="hidden lg:absolute lg:left-0 lg:top-[1680px]" src="home/side2.png" />
-          <img class="hidden lg:absolute lg:right-0 lg:top-[3100px]" src="home/side3.png" />
-
-          {/* Headline */}
-          <div className="w-72 lg:w-7/12 flex flex-row items-center mb-20 px-10 lg:px-[90px]">
-            <div>
-              <div>
-                <h3 className="font-poppins text-white font-bold text-2xl lg:text-5xl lg:leading-[60px] tracking-tighter">
-                  Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
-                </h3>
-                <p className="text-lg lg:text-xl text-white font-normal mt-5 lg:pr-5">
-                  jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
-                  untuk kehidupan yang lebih bermanfaat
-                </p>
-              </div>
-              <div class=" mt-6 lg:mt-9 h-9 lg:h-12 px-6 py-3 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
-                <button class="text-white text-base font-normal font-Poppins">
-                  Daftar Sekarang
-                </button>
-              </div>
-            </div>
-          </div>
-        </main>
-      {/* <div className="bg-white">
-        <main
-          className=" bg-background flex "
-          style={{
-            backgroundImage: "url(/assets/home/Vector.png)",
-            backgroundSize: "cover",
-            overflowY: "auto",
-            height: "122vh",
-          }}
-        >
-          <img
-            class="absolute right-20 lg:top-[300px]"
-            src="./assets/home/amico1.png"
-          />
-
-          <div className="w-7/12 flex flex-row items-center mb-20 px-[90px]">
+      <section className=" bg-background flex"
+        style={{
+          backgroundImage: "url(assets/home/vector.png)",
+          backgroundSize: "cover",
+          overflowY: "auto",
+          height: "133vh",
+          maxWidth: "full"
+        }}>
+        <div className="pt-[224px] px-[80px] flex w-screen">
+          <div className="">
             <div className="w-[601px] h-[276px] flex-col justify-start items-start gap-6 inline-flex">
               <div className="self-stretch h-[204px] flex-col justify-start items-start flex">
-                <div className="self-stretch text-white text-5xl font-semibold font-['Poppins']">
+                <div className="self-stretch text-white text-5xl font-semibold">
                   Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
                 </div>
-                <div className="self-stretch text-white text-xl font-normal font-['Poppins']">
+                <div className="self-stretch lg:text-sm text-white text-xl font-normal mt-4">
                   jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
                   untuk kehidupan yang lebih bermanfaat
                 </div>
               </div>
               <div className="px-6 py-3 bg-white rounded-md justify-center items-center gap-2.5 inline-flex">
-                <div className="text-emerald-300 text-base font-semibold font-['Poppins']">
+                <div className="text-emerald-300 text-base font-semibold">
                   Daftar Sekarang
                 </div>
               </div>
             </div>
           </div>
-        </main>
-      </div> */}
+
+          {/* <div className="lg:ml-40 -mt-20 hidden lg:flex"> 
+            <img
+              src="./assets/home/home.png"
+              className="w-full h-full object-cover"
+              alt=""
+            />
+          </div> */}
+          {/* <div className="lg:w-1/2 -mt-20 hidden lg:flex bg-red-200 "> 
+            <img
+              src="./assets/home/home.png"
+              className="min-w-[400px] max-h-[600px] max-w-[600px] mx-auto"
+              alt=""
+            />
+          </div> */}
+          </div>
+      </section>
 
       {/* SECTION 2 */}
-      <section className="my-[120px]">
-        <div className="lg:flex justify-center items-center gap-[100px]">
-          <div className="">
+      <section className="my-[120px] px-[80px]">
+        <div className="lg:flex md:justify-center md:items-center gap-[100px]">
+          <div className="lg:flex ">
             <img
               src="./assets/home/study.png"
               alt=""
@@ -88,20 +63,15 @@ function index() {
             ></img>
           </div>
           <div className="">
-            <h4 className="text-black non-italic font-bold text-[56px] justify-center items-center">
+            <h4 className="text-black lg:px-0 non-italic font-bold text-[56px] md:px-[100px] md:mt-10">
               Tentang Kami
             </h4>
-            <p className="text-justify font-normal text-[24px]">
+            <p className="text-justify font-normal text-[24px] max-w-[779px]">
               Sekolah Kami merupakan sekolah informal yang dikelola untuk
-              <br />
               membantu anak mengembangkan bakat dan kemampuannya.
-              <br />
               Dengan memberikan kurikulum terbaik agar anak bisa memilih
-              <br />
               minat nya dan fokus mengembangkan minat tersebut. Sekolah
-              <br />
               ini didirikan sejak tahun 1989 dan terus berkembang hingga saat
-              <br />
               ini.
             </p>
           </div>
@@ -109,41 +79,38 @@ function index() {
       </section>
 
       {/* SECTION 3 */}
-      <div
-        className=" bg-background flex "
+      <section className=" bg-background flex "
         style={{
           backgroundImage: "url(/assets/home/Vector2.png)",
           backgroundSize: "cover",
-          overflowY: "auto", 
+          overflowY: "auto",
           height: "122vh",
-        }}
-      >
+        }}>
+      <div className="px-[80px] mt-[250px]">
         <Keunggulan />
-      </div>
+        </div>
+        </section>
 
       {/* SECTION 4 */}
-      <section className="mt-[120px] px-[81px] pt-[64px] pb-[85px]">
-        <h1 className="text-[56px] font-bold pb-[12px]">Galeri</h1>
-        <div className="flex items-center justify-between mb-[40px]">
-          <p className="font-normal text-[#1C2661] text-[24px]">
+      <section className="mt-[120px] px-[80px] pt-[64px] pb-[85px]">
+        <h1 className="text-black lg:px-0 non-italic font-bold text-[56px] md:px-[220px] md:mt-10">Galeri</h1>
+        <div className="lg:flex items-center lg:justify-between mb-[40px] ">
+          <p className="flex font-normal  text-[#1C2661] text-[24px] sm:px-[140px] lg:px-0">
             Dokumentasi Sekolah kami
           </p>
-          <button className="flex bg-[#3190DC] px-[24px] py-[12px] rounded-[12px] text-white gap-2">
-            Lihat Semua{" "}
-            <img
-              src="./assets/home/chevron-right.png"
-              alt=""
-              className="items-center justify-center w-[14px] h-[14px]"
-            />
-          </button>
+          <div className="">
+          <button className="flex bg-[#3190DC] px-[24px] py-[12px] sm:mt-5 lg:mt-0 sm:mx-[220px] lg:-mx-0 rounded-[12px] text-white">
+            Lihat Semua {'>'}
+            </button>
+            </div>
         </div>
-        <div className="flex items-center justify-between mb-[40px]">
+        <div className="flex flex-wrap">
           <GaleriPrev />
         </div>
       </section>
 
       {/* SECTION 5 */}
-      <section className="px-[79px] py-[40px] mt-[120px]">
+      <section className="px-[79px] py-[40px] mt-[120px] mb-[120px]">
         <h1 className="text-[56px] font-bold pb-[12px]">Artikel</h1>
         <div className="flex items-center justify-between mb-[40px]">
           <ul className="flex text-[#404040] font-normal gap-10 text-[24px]">
@@ -173,17 +140,11 @@ function index() {
             </li>
           </ul>
           <button className="flex bg-[#3190DC] px-[24px] py-[12px] rounded-[12px] text-white gap-2">
-            Lihat Semua{" "}
-            <img
-              src="./photo/chevron-right.png"
-              alt=""
-              className="items-center justify-center w-[14px] h-[14px]"
-            />
+            Lihat Semua {">"}
           </button>
         </div>
         <Artikel />
-        </section>
-        </div>
+      </section>
     </>
   );
 }
