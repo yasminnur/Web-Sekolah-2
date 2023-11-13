@@ -10,7 +10,7 @@ function index() {
       <section
         className=" bg-background flex"
         style={{
-          backgroundImage: "url(/assets/home/vector.png)",
+          backgroundImage: "url(/assets/home/Vector.png)",
           backgroundSize: "cover",
           overflowY: "auto",
           height: "133vh",
