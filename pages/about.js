@@ -9,7 +9,7 @@ function about() {
       <section
         className=" bg-background flex overflow-x-hidden"
         style={{
-          backgroundImage: "url(assets/home/vector.png)",
+          backgroundImage: "url(/assets/home/vector.png)",
           backgroundSize: "cover",
           overflowY: "auto",
           height: "133vh",

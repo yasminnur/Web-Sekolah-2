@@ -9,7 +9,7 @@ function news() {
       <section
         className=" bg-background flex"
         style={{
-          backgroundImage: "url(assets/home/vector.png)",
+          backgroundImage: "url(/assets/home/vector.png)",
           backgroundSize: "cover",
           overflowY: "auto",
           height: "133vh",

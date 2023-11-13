@@ -7,7 +7,7 @@ function news_detail() {
         <main
           className="realtive bg-background flex"
           style={{
-            backgroundImage: "url(assets/news/vector.png)",
+            backgroundImage: "url(/assets/home/vector.png)",
             backgroundSize: "cover",
             overflowY: "auto",
             height: "110vh",
