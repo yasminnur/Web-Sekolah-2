@@ -64,7 +64,7 @@ function about() {
       </div>
 
       {/* SECTION 3 */}
-      <section
+      {/* <section
         className=" bg-background flex overflow-x-hidden"
         style={{
           backgroundImage: "url(./assets/home/Vector2.png)",
@@ -79,7 +79,27 @@ function about() {
           </h1>
           <Keunggulan />
         </div>
-      </section>
+      </section> */}
+
+       {/* SECTION 3 */}
+       <section className="lg:py-32 md:py-0 sm:py-56">
+      <div
+        className=" bg-background flex"
+        style={{
+          backgroundImage: "url(./assets/home/Vector2.png)",
+          backgroundSize: "cover",
+          overflowY: "auto",
+          height: "122vh",
+        }}
+      >
+          <div className="lg:mt-48 md:mt-[550px] sm:mt-96">
+          <h1 className="flex items-center justify-center text-white text-[64px] font-bold mb-[20px]">
+            Keunggulan Kami
+          </h1>
+          <Keunggulan />
+        </div>
+        </div>
+        </section>
 
       {/* SECTION 4 */}
       <div className="px-[80px] pt-[51px] pb-[62px] mt-[120px] overflow-x-hidden">

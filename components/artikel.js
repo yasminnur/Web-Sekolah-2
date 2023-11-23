@@ -15,7 +15,7 @@ function artikel() {
           <a key={index} href="#" class="group">
             <div className="relative">
               <img src={item.image} alt="" className="mb-10 md:w-full" />
-              <span className="absolute  md:bottom-0 sm:left-[170px] lg:bottom-[195px] lg:left-[100px] justify-center items-center lg:px-[16px] lg:py-[8px] sm:px-[16px] sm:text-xl lg:text-sm text-white bg-gradient-to-r from-[#4BA3EB] to-[#5DDAAA] rounded-[24px] mx-auto">
+              <span className="lg:absolute lg:bottom-[195px] lg:left-[100px] justify-center items-center lg:px-[16px] lg:py-[8px] lg:text-sm md:text-white md:bg-gradient-to-r from-[#4BA3EB] to-[#5DDAAA] rounded-[24px] mx-auto">
                 {item.date}
               </span>
               <h1 className="mt-[16px] text-[20px] font-bold">{item.title}</h1>

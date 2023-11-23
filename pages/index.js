@@ -8,7 +8,7 @@ function index() {
     <>
       {/* SECTION 1 */}
       <section
-        className=" bg-background flex"
+        className="bg-background flex"
         style={{
           backgroundImage: "url(./assets/home/Vector.png)",
           backgroundSize: "cover",
@@ -17,48 +17,46 @@ function index() {
           maxWidth: "full",
         }}
       >
-        <div className="pt-[224px] px-[80px] flex w-screen">
-          <div className="">
-            <div className="w-[601px] h-[276px] flex-col justify-start items-start gap-6 inline-flex">
-              <div className="h-[204px] flex-col lg:justify-start lg:items-start  flex">
-                <h1 className=" text-white text-5xl font-semibold">
+        <div className="pt-[224px] px-[80px] lg:flex ">
+          <div className="lg:w-1/2">
+            <div className="justify-start items-start gap-6 ">
+              <div className="lg:justify-start lg:items-start ">
+                <h1 className="text-white text-5xl font-semibold">
                   Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
                 </h1>
-                <p className="text-white text-xl font-normal mt-4">
+                <p className="text-white md:text-xl sm:text-3xl mt-4">
                   jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,
                   untuk kehidupan yang lebih bermanfaat
                 </p>
               </div>
-              <div className="px-6 py-3 bg-white rounded-md justify-center items-center gap-2.5 inline-flex">
-                <div className="text-emerald-300 text-base font-semibold">
-                  Daftar Sekarang
-                </div>
-              </div>
+              <button className="mt-6 text-emerald-300 text-base font-semibold px-6 py-3 bg-white rounded-md justify-center items-center">
+                Daftar Sekarang
+              </button>
             </div>
           </div>
-
           <div className="lg:w-1/2 -mt-20 hidden lg:flex">
             <img
+              className="md:w-[500px] md:h-[350px] z-10"
               src="./assets/home/home.png"
-              className="min-w-[400px] max-h-[600px] max-w-[600px] mx-auto"
-              alt=""
             />
           </div>
         </div>
       </section>
 
       {/* SECTION 2 */}
-      <section className="my-[120px] px-[80px]">
-        <div className="lg:flex md:justify-center md:items-center gap-[100px]">
+      <section className="md:-mt-[290px] md:mb-[80px] lg:mt-0 lg:mb-0 px-[80px] ">
+        <div className="lg:flex">
           <div className="lg:flex ">
-            <img
-              src="./assets/home/study.png"
-              alt=""
-              className="w-full h-full"
-            ></img>
+            <div className="flex justify-center items-center">
+              <img
+                src="./assets/home/study.png"
+                alt=""
+                className="lg:w-full lg:h-full md:w-[300px] md:h-[300px] "
+              ></img>
+            </div>
           </div>
-          <div className="">
-            <h4 className="text-black lg:px-0 non-italic font-bold text-[56px] md:px-[100px] md:mt-10">
+          <div className="md:mt-10">
+            <h4 className="text-black lg:px-0 non-italic font-bold text-[56px] md:px-[100px] ">
               Tentang Kami
             </h4>
             <p className="text-justify font-normal text-[24px] max-w-[779px]">
@@ -73,7 +71,8 @@ function index() {
       </section>
 
       {/* SECTION 3 */}
-      <section
+      <section className="lg:py-32 md:py-0 sm:py-56">
+      <div
         className=" bg-background flex "
         style={{
           backgroundImage: "url(./assets/home/Vector2.png)",
@@ -82,25 +81,24 @@ function index() {
           height: "122vh",
         }}
       >
-        <div className="px-[80px] mt-[250px]">
+        <div className="lg:mt-56 md:mt-[550px] sm:mt-96">
           <Keunggulan />
         </div>
-      </section>
+        </div>
+        </section>
 
       {/* SECTION 4 */}
       <section className="mt-[120px] px-[80px] pt-[64px] pb-[85px]">
-        <h1 className="text-black lg:px-0 non-italic font-bold text-[56px] md:px-[220px] md:mt-10">
+        <h1 className="text-black lg:justify-start lg:px-0 non-italic font-bold text-[56px] flex sm:justify-center  md:px-[220px] md:mt-10">
           Galeri
         </h1>
-        <div className="lg:flex items-center lg:justify-between mb-[40px] ">
-          <p className="flex font-normal text-[#1C2661] text-[24px] sm:px-[140px] lg:px-0">
+        <div className="lg:flex items-center lg:justify-between mb-[40px]">
+          <p className="flex font-normal text-[#1C2661] text-[24px] sm:px-[140px] lg:px-0 ">
             Dokumentasi Sekolah kami
           </p>
-          <div className="">
-            <button className="flex bg-[#3190DC] px-[24px] py-[12px] sm:mt-5 lg:mt-0 sm:mx-[220px] lg:-mx-0 rounded-[12px] text-white">
+            <button className="flex lg:mt-0 bg-[#3190DC] px-[24px] py-[12px] sm:mt-11 sm:mx-[220px] lg:-mx-0 rounded-[12px] text-white">
               Lihat Semua {">"}
             </button>
-          </div>
         </div>
         <div className="flex flex-wrap">
           <GaleriPrev />
@@ -110,12 +108,12 @@ function index() {
       {/* SECTION 5 */}
       <section className="px-[79px] py-[40px] mt-[120px] mb-[120px]">
         <h1 className="text-[56px] font-bold pb-[12px]">Artikel</h1>
-        <div className="flex items-center justify-between mb-[40px]">
-          <ul className="md:flex text-[#404040] font-normal gap-10 text-[24px]">
+        <div className="md:flex items-center justify-between mb-[40px]">
+          <ul className="md:flex text-[#404040] font-normal gap-10 text-[24px] justify-start">
             <li>
               <a
                 href="#"
-                className="active:font-bold hover:font-bold active:border-b-2 p-[12px] active:border-black"
+                className="active:font-bold hover:font-bold hover:border-b-2 active:border-b-2 p-[12px] active:border-black"
               >
                 Semua
               </a>

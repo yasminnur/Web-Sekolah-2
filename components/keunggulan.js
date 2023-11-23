@@ -12,8 +12,8 @@ function keunggulan() {
       <div className="flex flex-wrap gap-[40px] justify-center">
         {jsonData.map((item, index) => (
           <a key={index} href="#" class="group">
-            <div className="py-[80px] px-[24px] rounded-[12px] md:w-[620px] sm:w-[100px] sm:px-[5px] bg-white shadow-xl">
-              <div className="md:flex gap-[16px]">
+            <div className="py-[80px] md:px-[24px] rounded-[12px] md:w-[620px] bg-white shadow-xl h-fit">
+              <div className="md:flex md:gap-[16px] md:pr-5 ">
                 <img src={item.image} alt="" className=""></img>
                 <div className="">
                   <h4 className="font-semibold text-[#1C2661] text-[24px]">

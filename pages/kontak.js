@@ -7,7 +7,7 @@ function kontak() {
       <section
         className=" bg-background flex"
         style={{
-            backgroundImage: "url(./assets/home/Vector.png)",
+          backgroundImage: "url(./assets/home/Vector.png)",
           backgroundSize: "cover",
           overflowY: "auto",
           height: "133vh",
@@ -39,95 +39,102 @@ function kontak() {
       </section>
 
       {/* SECTION 2 */}
-      <section className="px-[120px] mt-16">
-        <div className="w-[1280px] h-[775px] flex-col justify-center items-center gap-16 inline-flex mb-[151px]">
-          <div className="flex-col justify-center items-center flex">
-            <div className="text-blue-950 text-2xl font-normal">
-              Dapatkan informasi lebih lengkap
+      {/* mb-[120px] mt-[120px] bg-yellow-200 */}
+      <section className="w-full ">
+        {/* <div className="flex-col justify-center items-center flex mb-[64px] ">
+          <h3 className="text-blue-950 text-2xl font-normal">
+            Dapatkan informasi lebih lengkap
+          </h3>
+          <h1 className="text-black text-[56px] font-bold">Kontak Kami</h1>
+        </div> */}
+        <div className="lg:flex md:px-10 sm:px-1 lg:px-[80px]">
+          {/* MEDSOS */}
+          <div className="lg:w-1/2 flex flex-col gap-y-[64px] ">
+
+            <div className="md:flex items-center">
+              <div className="flex mr-[24px] border-blue-600 rounded-[80px] border-2 w-20 h-20 p-4 justify-center items-center">
+                <img
+                  src="./assets/kontak/phone.png"
+                  alt="telephone icon"
+                  className="md:w-7 md:h-10"
+                />
+              </div>
+              <div className="flex-col md:justify-start  md:items-start inline-flex p-2 sm:justify-center">
+                <p className="text-neutral-700 text-xl sm:text-sm font-medium capitalize leading-10 gap-y-5">
+                  (+62) 812 698 15172
+                </p>
+                <p className="text-neutral-700 text-xl sm:text-sm font-medium capitalize leading-10 ">
+                  (0341) 545 987
+                </p>
+              </div>
             </div>
-            <div className="text-black text-[56px] font-bold">Kontak Kami</div>
+
+            <div className="md:flex items-center">
+              <div className="flex mr-[24px] border-blue-600 rounded-[80px] border-2 w-20 h-20 p-4 justify-center items-center">
+                <img
+                  src="./assets/kontak/mail.png"
+                  alt="telephone icon"
+                  className="md:w-7 md:h-10"
+                />
+              </div>
+              <div className="flex-col justify-start items-start inline-flex p-2">
+                <p className="text-neutral-700 text-xl sm:text-sm font-medium capitalize leading-10 gap-y-5">
+                  contact@sekolahanak.Com
+                </p>
+                <p className="text-neutral-700 text-xl sm:text-sm font-medium capitalize leading-10 ">
+                  info@sekolah.anak.com
+                </p>
+              </div>
+            </div>
+
+            <div className="md:flex items-center">
+              <div className="flex mr-[24px] border-blue-600 rounded-[80px] border-2 w-20 h-20 p-4 justify-center items-center">
+                <img
+                  src="./assets/kontak/loc.png"
+                  alt="telephone icon"
+                  className="md:w-7 md:h-10"
+                />
+              </div>
+              <div className="flex-col justify-start items-start inline-flex p-2">
+                <p className="text-neutral-700 text-xl sm:text-sm font-medium capitalize leading-10 gap-y-5">
+                  jL. Soekarno hatta J-12
+                </p>
+                <p className="text-neutral-700 text-xl sm:text-sm font-medium capitalize leading-10 ">
+                  malang
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="self-stretch justify-start items-start gap-[120px] inline-flex ">
-            <div className="flex-col justify-start items-start gap-16 inline-flex">
-              <div className="justify-start items-center gap-6 inline-flex">
-                <div className="p-[20px] rounded-[80px] border-2 border-blue-400 justify-center items-start gap-2.5 flex">
-                  <img
-                    src="./assets/kontak/telepon1.png"
-                    alt="telephone icon"
-                    className="w-12 h-12"
-                  />
-                </div>
-                <div className="flex-col justify-start items-start gap-2 inline-flex">
-                  <p className="text-neutral-700 text-2xl font-medium capitalize leading-10">
-                    (+62) 812 698 15172
-                  </p>
-                  <p className="text-neutral-700 text-2xl font-medium capitalize leading-10">
-                    (0341) 545 987
-                  </p>
-                </div>
-              </div>
-              <div className="justify-start items-center gap-6 inline-flex">
-                <div className="p-5 rounded-[80px] border-2 border-blue-400 justify-center items-start gap-2.5 flex">
-                  <img
-                    src="./assets/kontak/email1.png"
-                    alt="email icon"
-                    className="w-12 h-12"
-                  />
-                </div>
-                <div className="flex-col justify-start items-start gap-2 inline-flex">
-                  <p className="text-neutral-700 text-2xl font-medium lowercase leading-10">
-                    contact@sekolahanak.Com
-                  </p>
-                  <p className="text-neutral-700 text-2xl font-medium lowercase leading-10">
-                    info@sekolah.anak.com
-                  </p>
-                </div>
-              </div>
-              <div className="justify-start items-center gap-6 inline-flex">
-                <div className="p-5 rounded-[80px] border-2 border-blue-400 justify-center items-start gap-2.5 flex">
-                  <img
-                    src="./assets/kontak/telepon1.png"
-                    alt="location icon"
-                    className="w-12 h-12"
-                  />
-                </div>
-                <div className="flex-col justify-start items-start gap-2 inline-flex">
-                  <p className="text-neutral-700 text-2xl font-medium capitalize leading-10">
-                    jL. Soekarno hatta J-12
-                  </p>
-                  <p className="text-neutral-700 text-2xl font-medium capitalize leading-10">
-                    malang
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="grow shrink basis-0 flex-col justify-center items-end gap-10 inline-flex">
-              <div className="self-stretch px-6 py-3 rounded-lg border-2 border-blue-400 justify-start items-start gap-2.5 inline-flex">
-                <p className="text-neutral-700 text-opacity-70 text-xl font-normal capitalize leading-10">
-                  Nama Anda*
-                </p>
-              </div>
-              <div className="self-stretch px-6 py-3 rounded-lg border-2 border-blue-400 justify-start items-start gap-2.5 inline-flex">
-                <p className="text-neutral-700 text-opacity-70 text-xl font-normal capitalize leading-10">
-                  Email Anda*
-                </p>
-              </div>
-              <div className="self-stretch px-6 py-3 rounded-lg border-2 border-blue-400 justify-start items-start gap-2.5 inline-flex">
-                <p className="text-neutral-700 text-opacity-70 text-xl font-normal capitalize leading-10">
-                  nomor telepon
-                </p>
-              </div>
-              <div className="self-stretch h-[179px] px-6 py-3 rounded-lg border-2 border-blue-400 justify-start items-start gap-2.5 inline-flex">
-                <p className="text-neutral-700 text-opacity-70 text-xl font-normal capitalize leading-10">
-                  Pesan Anda*
-                </p>
-              </div>
-              <div className="self-stretch px-6 py-3 bg-blue-500 rounded-xl justify-center items-center gap-2.5 inline-flex">
-                <button className="text-white text-2xl font-medium">
-                  Kirim Pesan
+
+          {/* INPUT */}
+          <div className="lg:w-1/2 md:mt-[100px] lg:mt-0 justify-center">
+            <form action="">
+              <div className="space-y-[40px] lg:ml-[24px]">
+                <input
+                  type="text"
+                  placeholder="Nama Anda*"
+                  className="border-2 border-blue-200 p-4 w-full rounded-lg"
+                />
+                <input
+                  type="text"
+                  placeholder="Email Anda*"
+                  className="border-2 border-blue-200 p-4 w-full rounded-lg"
+                />
+                <input
+                  type="text"
+                  placeholder="nomor telepon"
+                  className="border-2 border-blue-200 p-4 w-full rounded-lg"
+                />
+                <textarea
+                  type="text"
+                  placeholder="Pesan Anda*"
+                  className="border-2 border-blue-200 p-4 w-full h-[179px] rounded-lg"
+                />
+                <button className="w-full bg-blue-500 items-center py-[12px] px-[24px] rounded-lg text-white">
+                  Kirim
                 </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>
