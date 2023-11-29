@@ -6,133 +6,137 @@ function about() {
   return (
     <>
       {/* SECTION 1 */}
-      <section
-        className=" bg-background flex overflow-x-hidden"
-        style={{
-          backgroundImage: "url(./assets/home/Vector.png)",
-          backgroundSize: "cover",
-          overflowY: "auto",
-          height: "133vh",
-          maxWidth: "full",
-        }}
-      >
-        <div className="pt-[224px] px-[80px] flex w-screen">
-          <div className="">
-            <div className="w-[601px] h-[276px] flex-col justify-start items-start gap-6 inline-flex">
-              <div className="self-stretch h-[204px] flex-col justify-start items-start flex">
-                <div className="self-stretch text-white text-5xl font-semibold">
-                  Tentang Kami
-                </div>
-                <div className="text-white text-xl font-normal mt-4">
-                  Profil sekolah kami dan beberapa info penting tentang sekolah
-                  ini agar anda lebih yakin dan mengerti.
-                </div>
+      <section className="">
+        <div
+          className="container bg-background flex"
+          style={{
+            backgroundImage: "url(./assets/home/Vector.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            overflowY: "auto",
+            height: "110vh",
+            width: "100%",
+          }}
+        >
+          <div className="flex flex-wrap px-10 md:px-[50px] pt-[200px]">
+            <div className="w-full lg:w-1/2 text-center md:text-start">
+              <h1 className="text-white text-4xl md:text-5xl font-semibold leading-10">
+                Tentang Kami
+              </h1>
+              <p className="text-white md:text-xl text-lg mt-4">
+                Profil sekolah kami dan beberapa info penting tentang sekolah
+                ini agar anda lebih yakin dan mengerti.
+              </p>
+            </div>
+            <div className="w-full lg:w-1/2 ">
+              <div className="lg:flex justify-center hidden ml-14 lg:-mt-24">
+                <img className="w-[600px]" src="./assets/about/amico.png" />
               </div>
             </div>
-          </div>
-
-          <div className="lg:w-1/2 -mt-20 hidden lg:flex">
-            <img
-              src="./assets/about/amico.png"
-              className="min-w-[400px] max-h-[600px] max-w-[600px] mx-auto"
-              alt=""
-            />
           </div>
         </div>
       </section>
 
       {/* SECTION 2 */}
-      <div className="px-20 pt-[39px] pb-[105px] overflow-x-hidden">
-        <h3 className="flex text-blue-950 text-2xl font-normal">
-          Profil Singkat
-        </h3>
-        <h1 className="flex text-black text-[56px] font-bold">
-          Sekolah Informal{" "}
-        </h1>
-        <p className="flex text-neutral-700 text-2xl font-normal leading-[42px] text-justify">
-          Sekolah Kami merupakan sekolah informal yang dikelola untuk membantu
-          anak mengembangkan bakat dan kemampuannya. Dengan memberikan kurikulum
-          terbaik agar anak bisa memilih minat nya dan fokus mengembangkan minat
-          tersebut. Sekolah ini didirikan sejak tahun 1989 dan terus berkembang
-          hingga saat ini. berlokasikan di jl. SoekarnoHatta Blok J No. 245,
-          Lowokwaru, Blimbing, Kota Malang. Sejak berdirinya sekolah ini, sudah
-          lebih dari 250.000 siswa lulus dari sekolah kami. Dengan menjunjung
-          tinggi kejujuran, kedisiplinan dan semangat belajar yang tinggi kami
-          berharap bisa terus meghasilkan siswa-siswa lulusan terbaik dari
-          sekolah ini.
-        </p>
-      </div>
+      <section className="px-10 md:px-[50px] py-[40px] mb-[120px] mt-20 lg:mt-16">
+        <div className="container md:mb-14 lg:mb-0">
+          <div className="flex flex-wrap">
+            <div className="w-full">
+              <h3 className="flex text-blue-950 text-2xl font-normal">
+                Profil Singkat
+              </h3>
+              <h1 className="text-black non-italic text-3xl md:text-4xl font-semibold mb-[16px]">
+                Sekolah Informal
+              </h1>
+              <p className="text-justify font-normal md:text-base text-sm">
+                Sekolah Kami merupakan sekolah informal yang dikelola untuk
+                membantu anak mengembangkan bakat dan kemampuannya. Dengan
+                memberikan kurikulum terbaik agar anak bisa memilih minat nya
+                dan fokus mengembangkan minat tersebut. Sekolah ini didirikan
+                sejak tahun 1989 dan terus berkembang hingga saat ini.
+                berlokasikan di jl. SoekarnoHatta Blok J No. 245, Lowokwaru,
+                Blimbing, Kota Malang. Sejak berdirinya sekolah ini, sudah lebih
+                dari 250.000 siswa lulus dari sekolah kami. Dengan menjunjung
+                tinggi kejujuran, kedisiplinan dan semangat belajar yang tinggi
+                kami berharap bisa terus meghasilkan siswa-siswa lulusan terbaik
+                dari sekolah ini.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* SECTION 3 */}
-      {/* <section
-        className=" bg-background flex overflow-x-hidden"
-        style={{
-          backgroundImage: "url(./assets/home/Vector2.png)",
-          backgroundSize: "cover",
-          overflowY: "auto",
-          height: "122vh",
-        }}
-      >
-        <div className="px-[80px] mt-[210px]">
-          <h1 className="flex items-center justify-center text-white text-[64px] font-bold mb-[20px]">
-            Keunggulan Kami
-          </h1>
-          <Keunggulan />
+      <section className="">
+        <div className="container ">
+          <div
+            className="bg-background flex"
+            style={{
+              backgroundImage: "url(./assets/home/Vector2.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              overflowY: "auto",
+              height: "110vh",
+              width: "100%",
+            }}
+          >
+            <div className="pt-[80px] md:pt-0 lg:pt-[170px] overflow-hidden">
+              <h1
+                className="flex items-center justify-center text-[#4BA3EB] lg:text-white text-xl md:text-4xl font-bold mb-[10px]"
+                style={{ whiteSpace: "nowrap" }}
+              >
+                Keunggulan Sekolah Kami
+              </h1>
+              <Keunggulan />
+            </div>
+          </div>
         </div>
-      </section> */}
-
-       {/* SECTION 3 */}
-       <section className="lg:py-32 md:py-0 sm:py-56">
-      <div
-        className=" bg-background flex"
-        style={{
-          backgroundImage: "url(./assets/home/Vector2.png)",
-          backgroundSize: "cover",
-          overflowY: "auto",
-          height: "122vh",
-        }}
-      >
-          <div className="lg:mt-48 md:mt-[550px] sm:mt-96">
-          <h1 className="flex items-center justify-center text-white text-[64px] font-bold mb-[20px]">
-            Keunggulan Kami
-          </h1>
-          <Keunggulan />
-        </div>
-        </div>
-        </section>
+      </section>
 
       {/* SECTION 4 */}
-      <div className="px-[80px] pt-[51px] pb-[62px] mt-[120px] overflow-x-hidden">
-        <div className="w-[1278px] h-36 flex-col justify-start items-start inline-flex mb-[40px]">
-          <div className="text-black text-[56px] font-bold">
-            Guru {"&"} Staff Sekolah
-          </div>
-          <div className="self-stretch justify-between items-center inline-flex">
-            <div className="text-blue-950 text-2xl font-normal">
+      <section className="px-5 md:px-10 mt-[120px] mb-[120px]">
+        <div className="flex flex-col">
+          <h1 className="text-black text-3xl md:text-4xl font-semibold mb-2 md:mb-4 flex justify-center md:justify-start non-italic">
+            Galeri
+          </h1>
+          <div className="flex flex-col md:flex-row items-center md:items-center justify-between mb-10 md:mb-4">
+            <p className="flex font-normal text-[#1C2661] md:text-base text-sm mb-3 md:mb-0">
               Perkenalan Anggota Sekolah
-            </div>
-            <div className="px-6 py-3 bg-blue-500 rounded-xl justify-center items-center gap-2.5 flex">
-              <div className="text-white text-2xl font-normal">
-                Lihat Semua {">"}
-              </div>
-            </div>
+            </p>
+            <button className="flex bg-[#3190DC] text-sm px-[24px] py-[9px] md:mx-0 md:ml-auto rounded-[12px] text-white">
+              Lihat Semua {">"}
+            </button>
+          </div>
+          <div className="">
+            <Guru />
           </div>
         </div>
-        <Guru />
-      </div>
+      </section>
 
       {/* SECTION 5 */}
-      <section className="flex justify-center pb-[24px] mt-[120px] mb-[120px] overflow-x-hidden">
-        <div className="pb-10 flex-col justify-start items-center gap-6 inline-flex mx-auto">
-          <div className="self-stretch h-[120px] flex-col justify-center items-center flex">
-            <div className="text-black text-[56px] font-bold">Video Profil</div>
-            <div className="text-blue-950 text-2xl font-normal">
-              Cuplikan Sekolah
-            </div>
-          </div>
-          <div className="p-4 bg-white bg-opacity-60 rounded-3xl border-2 border-blue-400 flex">
-            <div className="bg-blue-400 bg-opacity-10 rounded-2xl items-center inline-flex">
-              <img src="./assets/about/vidio.png" alt="" className="" />
+      <section className="px-5 md:px-10 mt-[120px] mb-[120px]">
+        <div className="container">
+          <div className="flex flex-wrap justify-center">
+            <div className="w-full">
+              <div className="mb-2 md:mb-5">
+                <h1 className="flex justify-center text-black text-3xl md:text-4xl font-bold">
+                  Video Profil
+                </h1>
+                <p className="flex justify-center text-blue-950 text-2xl font-normal">
+                  Cuplikan Sekolah
+                </p>
+              </div>
+
+              <div className="md:p-4 bg-white bg-opacity-60 rounded-3xl md:border-2 border-blue-400 flex h-[200px] md:h-[400px] lg:h-[500px]">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/9xofia597HI"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>

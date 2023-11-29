@@ -1,14 +1,14 @@
 [
     {
-        "image": "./assets/galeri/galeri1.png"
+        "image": "./assets/home/galeri1.png"
     },
     {
-        "image": "./assets/galeri/galeri2.png"
+        "image": "./assets/home/galeri2.png"
     },
     {
-        "image": "./assets/galeri/galeri3.png"
+        "image": "./assets/home/galeri3.png"
     },
     {
-        "image": "./assets/galeri/galeri4.png"
+        "image": "./assets/home/galeri4.png"
     }
 ]

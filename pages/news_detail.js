@@ -9,31 +9,33 @@ function news_detail() {
           style={{
             backgroundImage: "url(./assets/home/Vector.png)",
             backgroundSize: "cover",
+            backgroundPosition: "center",
             overflowY: "auto",
-            height: "110vh",
-            maxWidth: "full",
+            height: "100vh",
+            width: "100%",
           }}
         >
-          <div className="px-[120px] mt-[125px] overflow-hidden">
+        </main>
+        <div className="px-10 md:px-[50px] -mt-[500px]">
+        <div className="">
             <img
               src="./assets/news/kelas.png"
               alt=""
-              className="w-[1280px] h-[688px]"
+              className="sm:w-full sm:h-[400px] lg:h-[688px] rounded-[24px] bg-yellow-200"
             />
           </div>
-        </main>
 
-        <div className="px-[120px] mt-[40px] mb-[120px]">
-          <span className="text-white text-xl font-medium px-[16px] py-[8px] bg-gradient-to-r from-[#4BA3EB] to-[#5DDAAA] rounded-[24px] mx-auto">
+        <div className="mt-[40px] mb-[120px]"> 
+          <span className="font-normal py-2 px-4 text-xs left-1/2 transform -translate-x-1/2 -bottom-4 bg-white md:bg-gradient-to-r from-[#4BA3EB] to-[#5DDAAA] rounded-[24px] text-emerald-300 md:text-white">
             12 Desember 2021
           </span>
-          <h1 className="mt-[16px] text-black text-[56px] font-bold">
+          <h1 className="mt-[16px] text-black text-3xl md:text-4xl font-bold">
             Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
           </h1>
-          <p className="text-justify text-neutral-700 text-xl font-normal mt-[8px]">
+          <p className="text-justify text-neutral-700 md:text-base text-sm font-normal mt-[8px]">
             Penulis : Shinta A.P
           </p>
-          <p className="mt-[24px]  text-justify text-neutral-700 text-xl font-normal ">
+          <p className="mt-[24px]  text-justify text-neutral-700 md:text-base text-sm font-normal ">
             Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
             kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman
             sekelas saya. begitupun sebagian besar orang tua, mimpi mereka
@@ -75,8 +77,9 @@ function news_detail() {
             hanya bertemu di pembelajaran online. Semuanya hadir demi mewujudkan
             pembelajaran tatap muka meskipun terbatas.
           </p>
+          </div>
         </div>
-      </div>
+        </div>
     </>
   );
 }

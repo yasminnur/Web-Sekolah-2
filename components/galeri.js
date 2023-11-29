@@ -10,10 +10,10 @@ function galeri() {
 
   return (
     <>
-      <div className="flex flex-wrap gap-14 justify-center">
+      <div className="flex flex-wrap gap-5 justify-center">
         {jsonData.map((item, index) => (
           <a key={index} href="#" className="group">
-            <div className="w-[399.33px] h-[356px] bg-red-200 rounded-3xl">
+            <div className="w-[280px] lg:w-[300px] h-[256px] md:w-[330px] rounded-3xl">
               <div
                 className="relative grid md:grid-cols-2 mt-10 my-10 w-full h-full rounded-3xl"
                 style={{

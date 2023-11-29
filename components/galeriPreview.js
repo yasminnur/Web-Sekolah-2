@@ -9,14 +9,14 @@ function galeriPreview() {
   }, []);
   return (
     <>
-      <div class="flex flex-wrap gap-16 justify-start md:justify-center">
+      <div className="flex flex-wrap gap-5 lg:gap-10 justify-center lg:justify-center lg:items-center md:justify-start">
         {jsonData.map((item, index) => (
-          <a key={index} href="#" class="group">
-            <div class="justify-center items-center">
+          <a key={index} href="#" className="group">
+            <div className="h-[300px] rounded-3xl w-full md:w-[209px] lg:w-[200px] ">
               <img
                 src={item.image}
                 alt=""
-                class="self-stretch h-[356px] rounded-3xl w-[290px]"
+                className="w-full h-full object-cover rounded-3xl"
               />
             </div>
           </a>
