@@ -16,7 +16,7 @@ function kontak() {
             width: "100%",
           }}
         >
-          <div className="flex flex-wrap px-5 md:px-10 pt-[200px]">
+          <div className="flex flex-wrap px-5 md:px-10 pt-[200px] md:pt-[260px]">
             <div className="w-full lg:w-1/2 text-center md:text-start">
               <h1 className="text-white text-3xl md:text-4xl font-semibold leading-10">
                 Hubungi Kami
@@ -35,7 +35,7 @@ function kontak() {
       </section>
 
       {/* SECTION 2 */}
-      <section className="px-5 md:px-10 mt-[120px]">
+      <section className="px-5 md:px-10 mt-[120px] mb-[120px]">
         <div className="container">
           <div className="mb-14">
             <h3 className="flex justify-center text-blue-950 text-sm md:text-xl font-normal">

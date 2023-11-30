@@ -20,7 +20,7 @@ function index() {
             width: "100%",
           }}
         >
-          <div className="flex flex-wrap px-14 pt-[100px]">
+          <div className="flex flex-wrap px-14 pt-[200px]">
             <div className="w-full lg:w-1/2 text-center md:text-start">
               <h1 className="text-white text-3xl md:text-4xl font-semibold leading-10">
                 Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik

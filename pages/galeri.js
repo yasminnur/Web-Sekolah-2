@@ -17,7 +17,7 @@ function galeri() {
             width: "100%",
           }}
         >
-          <div className="flex flex-wrap px-5 md:px-10 pt-[200px]">
+          <div className="flex flex-wrap px-5 md:px-10 pt-[200px] md:pt-[260px]">
             <div className="w-full lg:w-1/2 text-center md:text-start">
               <h1 className="text-white text-4xl md:text-5xl font-semibold leading-10">
                 Galeri
@@ -37,7 +37,7 @@ function galeri() {
       </section>
 
       {/* SECTION 2 */}
-      <section className="px-5 md:px-10 mt-[120px]">
+      <section className="px-5 md:px-10 mt-[120px] mb-[120px]">
         <div className="container">
               <div className="flex md:items-center mb-[40px] justify-start md:justify-center">
                 <ul className="md:flex text-[#404040] font-normal md:gap-[40px] text-[24px]">

@@ -21,7 +21,7 @@ function news_detail() {
             <img
               src="./assets/news/kelas.png"
               alt=""
-              className="sm:w-full sm:h-[400px] lg:h-[688px] rounded-[24px] bg-yellow-200"
+              className="sm:w-full sm:h-[400px] md:h-[500px] lg:h-[688px] xl:h-[850px] rounded-[24px] bg-yellow-200"
             />
           </div>
 

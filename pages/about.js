@@ -18,7 +18,7 @@ function about() {
             width: "100%",
           }}
         >
-          <div className="flex flex-wrap px-10 md:px-[50px] pt-[200px]">
+          <div className="flex flex-wrap px-10 md:px-[50px] pt-[200px] md:pt-[260px]">
             <div className="w-full lg:w-1/2 text-center md:text-start">
               <h1 className="text-white text-4xl md:text-5xl font-semibold leading-10">
                 Tentang Kami

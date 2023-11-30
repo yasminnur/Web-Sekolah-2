@@ -3,44 +3,43 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="hidden md:hidden lg:flex px-[80px] py-[64px] justify-between bg-[#FAFAFA]">
-        {/* Logo */}
-        <div className="">
-          <img src="/assets/home/logoUngu.png" alt="" />
-          <p className="text-blue-950 text-xl font-normal">
-            Jelajahi semua pengetahuan dan ilmu yang <br />
-            berguna bersama kami, untuk kehidupan yang <br />
+      <div className="lg:flex px-5 md:px-10 py-[64px] justify-between bg-[#FAFAFA]">
+        
+        <div className="md:mr-16 lg:mr-28 mb-10 lg:mb-0">
+          <img src="/assets/home/logoUngu.png" alt="" className="w-[100px]"/>
+          <p className="text-blue-950 md:text-base text-sm font-normal mt-3">
+            Jelajahi semua pengetahuan dan ilmu yang
+            berguna bersama kami, untuk kehidupan yang
             lebih bermanfaat
           </p>
         </div>
 
-        <div className="flex gap-32 ">
-          {/* Informasi */}
-          <div>
-            <h1 className="mb-[22px] text-blue-950 text-2xl font-semibold">
+        <div className="lg:flex lg:gap-x-14">
+          <div className="mb-5 lg:mb-0">
+            <h1 className="mb-1 lg:mb-[22px] text-blue-950 text-lg md:text-xl font-semibold">
               Informasi
             </h1>
-            <ul className="space-y-[20px] text-neutral-700 text-xl font-normal">
+            <ul className="mb-1 lg:mb-0 lg:space-y-[20px] text-neutral-700 md:text-base text-sm font-normal">
               <li>Artikel</li>
               <li>Galeri</li>
             </ul>
           </div>
-          {/* Tentang */}
-          <div>
-            <h1 className="mb-[22px] text-blue-950 text-2xl font-semibold">
+         
+          <div className="mb-5 lg:mb-0">
+            <h1 className="mb-1 lg:mb-[22px] text-blue-950 text-lg md:text-xl font-semibold">
               Tentang
             </h1>
-            <ul className="space-y-[20px] text-neutral-700 text-xl font-normal">
-              <li>Tentang Kami</li>
-              <li>Hubungi Kami</li>
+            <ul className="mb-1 lg:mb-0 lg:space-y-[20px] text-neutral-700 md:text-base text-sm font-normal">
+              <li style={{whiteSpace: "nowrap"}}>Tentang Kami</li>
+              <li style={{whiteSpace: "nowrap"}}>Hubungi Kami</li>
             </ul>
           </div>
-          {/* Ikuti Kami */}
-          <div>
-            <h1 className="mb-[22px] text-blue-950 text-2xl font-semibold">
+         
+          <div className="mb-5 lg:mb-0">
+            <h1 className="mb-1 lg:mb-[22px] text-blue-950 text-lg md:text-xl font-semibold">
               Ikuti Kami
             </h1>
-            <ul className="space-y-[20px] text-neutral-700 text-xl font-normal">
+            <ul className="mb-1 lg:mb-0 lg:space-y-[20px] text-neutral-700 md:text-base text-sm font-normal">
               <li className="flex items-center">
                 <img
                   className="w-[16px] h-[16px] mr-2"
@@ -76,9 +75,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bagian hak cipta untuk layar kecil */}
-      <div className="bg-[#FAFAFA] py-[32px] sm:border-t-2">
-        <p className="flex justify-center items-center">
+      <div className="px-5 md:px-10 bg-[#FAFAFA] py-4 lg:py-[32px] border-t-2">
+        <p className="flex justify-center text-center md:text-base text-sm"
+        style={{whiteSpace: "nowrap"}}>
           Hak Cipta © 2021. Seluruh hak dilindungi.
         </p>
       </div>

@@ -18,7 +18,7 @@ function news() {
             width: "100%",
           }}
         >
-          <div className="flex flex-wrap px-5 md:px-10 pt-[200px]">
+          <div className="flex flex-wrap px-5 md:px-10 pt-[200px] md:pt-[260px]">
             <div className="w-full lg:w-1/2 text-center md:text-start">
               <h1 className="text-white text-4xl md:text-5xl font-semibold leading-10">
                 Artikel
@@ -117,7 +117,7 @@ function news() {
       </section>
       
       {/* SECTION 3 */}
-      <section className="px-5 md:px-10 mt-6 lg:mt-[80px]">
+      <section className="px-5 md:px-10 mt-6 lg:mt-[80px] mb-[120px]">
         <div className="container">
           <div className="flex flex-wrap ">
             <div className="w-full">
