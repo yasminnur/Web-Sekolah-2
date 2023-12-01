@@ -15,7 +15,7 @@ function keunggulan() {
             <div className="inline-flex items-center">
               <div className="hidden md:flex lg:mr-[16px] lg:w-[200px] mr-7">
                 <img
-                  src="./assets/home/frame 18.png"
+                  src="../assets/home/frame 18.png"
                   alt=""
                   className="w-full h-full"
                 />
@@ -35,7 +35,7 @@ function keunggulan() {
             <div className="inline-flex items-center">
               <div className="hidden md:flex lg:mr-[16px] lg:w-[200px] mr-7">
                 <img
-                  src="./assets/home/frame 16.png"
+                  src="../assets/home/frame 16.png"
                   alt=""
                   className="w-full h-full"
                 />
@@ -56,7 +56,7 @@ function keunggulan() {
           <div className="inline-flex items-center">
             <div className="hidden md:flex lg:mr-[16px] lg:w-[200px] mr-7">
               <img
-                src="./assets/home/frame 15.png"
+                src="../assets/home/Frame 15.png"
                 alt=""
                 className="w-full h-full"
               />
